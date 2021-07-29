@@ -13,3 +13,7 @@ function getQuantity() {
     var quantity = document.getElementById().value;
     return parseInt(quantity);
 }
+function getCrust() {
+    var crust = document.getElementById().value;
+    return parseInt(crust);
+}
