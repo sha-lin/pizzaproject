@@ -4,3 +4,4 @@ function pizza(getSize, getQuantity,getCrust,getCheese,) {
     this.getCrust = getCrust;
     this.getCheese = getCheese;
 }
+var userInput = new Order (getSize(), getQuantity(), getCrust(), getCheese());
