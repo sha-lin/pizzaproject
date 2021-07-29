@@ -17,3 +17,7 @@ function getCrust() {
     var crust = document.getElementById().value;
     return parseInt(crust);
 }
+function getCheese(){
+    var cheese =document.getElementById().value;
+    return parseInt(cheese);
+}
