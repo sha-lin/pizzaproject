@@ -9,3 +9,7 @@ function getSize() {
     var size = document.getElementById().value;
     return parseInt(size);
 }
+function getQuantity() {
+    var quantity = document.getElementById().value;
+    return parseInt(quantity);
+}
