@@ -33,3 +33,19 @@ if (location !== "") {
   alert("You order will be delivered shortly at ksh150.");
 }
 }
+$(document).ready(function){
+    $("form#form34A").submit(function(event){
+        var name = $("input#").val();
+        var email = $("input#").val();
+        var message =$("textarea#comment").val(){
+            alert (name + "we have received your request");
+        }
+    });
+});
+
+
+
+
+
+
+  
