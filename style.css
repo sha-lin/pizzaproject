@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -26,14 +24,10 @@ html {
   position: relative;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+  width: 99%;
+  height: 100%;
+  position: absolute;
 }
-/* .navbar-text:hover {
-  color: #ffffff;
-  cursor: pointer;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-} */
 
 .nav-item {
   margin-left: 30px;
@@ -49,20 +43,6 @@ html {
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-/* .nav-item:hover a {
-  color: #ffffff;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-} */
-
-/* .naph {
-  text-align: right;
-  padding-right: 20px;
-  margin: 32px;
-  color: white;
-  font-family: 'Fredericka the Great', cursive;
-} */
 
 header {
   position: relative;
@@ -76,22 +56,6 @@ header {
   background-repeat: no-repeat;
   background-attachment:fixed;
 }
-
-/* header video {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-} */
 
 header .container {
   position: relative;
@@ -405,9 +369,6 @@ h1 {
 .order {
   text-align: center;
 }
-/* #contactus{
-  background-image: url("https://images.pexels.com/photos/1082342/pexels-photo-1082342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-} */
 
 .services{
   text-align: center;
@@ -434,18 +395,6 @@ h1 {
   padding-bottom: 6%;
 }
 
-/* .footer {
-    padding-top:;
-    padding-bottom: ;
-    background-color: #267933;
-    color: #d8e2dc;
-    display: block;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Manrope', sans-serif;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 1%;
-} */
 .contact{
   background-color: #000301;
   background-attachment: fixed;
