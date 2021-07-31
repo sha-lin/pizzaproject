@@ -1,4 +1,4 @@
-function pizza(getSize, getQuantity,getCrust,getTopping,) {
+function pizza(getSize, getQuantity,getCrust,getTopping) {
     this.getSize = getSize;
     this.getQuantity = getQuantity;
     this.getCrust = getCrust;
@@ -10,8 +10,8 @@ function getSize() {
     return parseInt(size);
 }
 function getQuantity() {
-    var quantity = document.getElementById("quantityPizza").value;
-    return parseInt(quantity);
+    var number = document.getElementById("quantityPizza").value;
+    return parseInt(number);
 }
 function getCrust() {
     var crust = document.getElementById("pizzaCrust").value;
@@ -21,16 +21,25 @@ function getTopping(){
     var topping =document.getElementById("pizzaTopping").value;
     return parseInt(topping);
 }
-function amount(){
-    var total = (getSize + getCrust() + getTopping() *getQuantity());
+function totalAmount(){
+    var total = (getSize() + getCrust() + getTopping()) *getQuantity();
     alert(
-        "You have ordered" + getQuantity("") + "pizza" + "" + "total to ksh. " + total +"" + "Thankyou for your order. Welcome again");
-}
+        "You have ordered" + 
+        getQuantity("") + 
+        "pizza" +
+         "" +
+          "total to ksh. " +
+           total +
+           "" +
+            "Thankyou for your order. Welcome again"
+            );
+
 
 // variable to get the location of the customer
-var location = prompt("Please enter your location to get your pizza delivered.");
+var location = prompt("Please enter your location to get your pizza delivered.If you do not want it delivered then cancel.");
 if (location !== "") {
   alert("You order will be delivered shortly at ksh150.And incase you didn,t want it delivered please come for your order.");
+  }
 }
 $(document).ready(function(){
     $("form#form34A").submit(function(event){

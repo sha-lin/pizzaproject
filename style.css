@@ -48,12 +48,12 @@ html {
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-.nav-item:hover a {
+/* .nav-item:hover a {
   color: #ffffff;
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
-}
+} */
 
 .naph {
   text-align: right;
@@ -65,7 +65,7 @@ html {
 
 header {
   position: relative;
-  background-color: black;
+  background-color: rgb(0, 4, 5);
   height: 75vh;
   min-height: 25rem;
   width: 100%;
@@ -138,6 +138,7 @@ header .overlay {
 }
 p {
   font-size: 40px;
+  color: #d8e2dc;
 }
 
 
@@ -326,7 +327,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 5%;
-  padding-bottom: %;
+  padding-bottom: 5%;
 }
 #wrapper {
   background-color: #d8e2dc;
