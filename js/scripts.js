@@ -6,19 +6,19 @@ function pizza(getSize, getQuantity,getCrust,getTopping,) {
 }
 var userInput = new Order (getSize(), getQuantity(), getCrust(), getTopping());
 function getSize() {
-    var size = document.getElementById().value;
+    var size = document.getElementById("sizePizza").value;
     return parseInt(size);
 }
 function getQuantity() {
-    var quantity = document.getElementById().value;
+    var quantity = document.getElementById("quantityPizza").value;
     return parseInt(quantity);
 }
 function getCrust() {
-    var crust = document.getElementById().value;
+    var crust = document.getElementById("pizzaCrust").value;
     return parseInt(crust);
 }
 function getTopping(){
-    var topping =document.getElementById().value;
+    var topping =document.getElementById("pizzaTopping").value;
     return parseInt(topping);
 }
 function amount(){
