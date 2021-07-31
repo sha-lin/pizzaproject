@@ -389,7 +389,7 @@ span {
 }
 
 .card-body {
-  color: #267933;
+  color: #4d2679;
   width: 600px;
 }
 
@@ -400,6 +400,9 @@ h1 {
 }
 .key {
   text-align: center;
+}
+#contactus{
+  background-image: url("https://images.pexels.com/photos/1082342/pexels-photo-1082342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
 .services{
@@ -471,7 +474,7 @@ input[type=text],input[type=email],#comment{
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #267933;
+  color: #792667;
 }
 #MERGE1{
   width: 30%;
