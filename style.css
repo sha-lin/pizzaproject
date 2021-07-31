@@ -104,6 +104,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
+  background-image: url("https://images.pexels.com/photos/1596888/pexels-photo-1596888.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   opacity: 0.5;
   z-index: 1;
 }
@@ -402,7 +403,7 @@ h1 {
 
 .services{
   text-align: center;
-  background-image: url("https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/1596888/pexels-photo-1596888.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   color: #d8e2dc;
   background-position: center;
   background-attachment: fixed;
@@ -425,7 +426,7 @@ h1 {
   padding-bottom: 6%;
 }
 
-.footer {
+/* .footer {
     padding-top:;
     padding-bottom: ;
     background-color: #267933;
@@ -436,7 +437,7 @@ h1 {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 1%;
-}
+} */
 .contact{
   background-color: #d8e2dc;
   background-attachment: fixed;
