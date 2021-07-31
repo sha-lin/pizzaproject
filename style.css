@@ -401,9 +401,9 @@ h1 {
 .key {
   text-align: center;
 }
-#contactus{
+/* #contactus{
   background-image: url("https://images.pexels.com/photos/1082342/pexels-photo-1082342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-}
+} */
 
 .services{
   text-align: center;
@@ -444,6 +444,7 @@ h1 {
 } */
 .contact{
   background-color: #d8e2dc;
+  background-image: url("https://images.pexels.com/photos/4340677/pexels-photo-4340677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -474,7 +475,7 @@ input[type=text],input[type=email],#comment{
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #792667;
+  color: #0e030b;
 }
 #MERGE1{
   width: 30%;
