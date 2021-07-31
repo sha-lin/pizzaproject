@@ -30,7 +30,7 @@ function amount(){
 // variable to get the location of the customer
 var location = prompt("Please enter your location to get your pizza delivered.");
 if (location !== "") {
-  alert("You order will be delivered shortly at ksh150.");
+  alert("You order will be delivered shortly at ksh150.And incase you didn,t want it delivered please come for your order.");
 }
 $(document).ready(function(){
     $("form#form34A").submit(function(event){

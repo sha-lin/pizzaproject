@@ -26,13 +26,13 @@ html {
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-.navbar-text:hover {
+/* .navbar-text:hover {
   color: #ffffff;
   cursor: pointer;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-}
+} */
 
 .nav-item {
   margin-left: 30px;
@@ -76,7 +76,7 @@ header {
   background-attachment:fixed;
 }
 
-header video {
+/* header video {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -90,7 +90,7 @@ header video {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-}
+} */
 
 header .container {
   position: relative;
