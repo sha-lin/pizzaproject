@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 .navbar {
-  background: rgba(214, 133, 194, 0.849) !important;
+  background: rgba(15, 7, 13, 0.849) !important;
 }
 
 .navbar .navbar-brand {
@@ -389,7 +389,7 @@ span {
 }
 
 .card-body {
-  color: #4d2679;
+  color: #05010ac4;
   width: 600px;
 }
 
@@ -443,8 +443,7 @@ h1 {
     padding-bottom: 1%;
 } */
 .contact{
-  background-color: #d8e2dc;
-  background-image: url("https://images.pexels.com/photos/4340677/pexels-photo-4340677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-color: #000301;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -462,7 +461,7 @@ h1 {
   margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 20px;
-  color: #267933;
+  color: #792667;
   font-size: 60px;
   font-weight: 900;
 }
@@ -475,7 +474,7 @@ input[type=text],input[type=email],#comment{
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #0e030b;
+  color: #e9dae5;
 }
 #MERGE1{
   width: 30%;
