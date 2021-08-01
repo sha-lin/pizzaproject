@@ -7,7 +7,7 @@ This is a web page for The Pizza Palace restaurant which is well known for its t
 * Have a browser.I recommend Google Chrome
 * Have Visual Studio Code
 * git clone on the Visual Studio terminal
-* By: git clone https://github.com/sha-lin/pizzaproject.git(paste it on the VS code terminal)
+* By: git clone https://github.com/sha-lin/pizzaproject.git (paste it on the VS code terminal)
 ## Technologies Used
 
 HTML
