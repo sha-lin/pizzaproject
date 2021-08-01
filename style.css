@@ -6,7 +6,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.img{
+img{
   float: right;
 }
 .navbar {
@@ -401,7 +401,7 @@ h1 {
   color: white;
   padding-top: 4%;
   padding-bottom: 4%;
-  /* text-align: center; */
+   text-align: center; 
 }
 .title{
   padding: 6px;
@@ -418,7 +418,7 @@ h1 {
 
 input[type=text],input[type=email],#comment{
   background: transparent;
-  color: #267933;
+  color: #f1f3f1;
   font-size: 20px;
   font-family: 'Copse', serif;
 }
@@ -426,11 +426,11 @@ input[type=text],input[type=email],#comment{
 .form-control::-webkit-input-placeholder {
   color: #e9dae5;
 }
-#MERGE1{
+/* #MERGE1{
   width: 30%;
   margin-left: 18%;
   margin-right: 30px;
-}
+} */
 #MERGE0{
   width: 30%;
 }
