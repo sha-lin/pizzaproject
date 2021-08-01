@@ -34,6 +34,28 @@ function totalAmount(){
             "Thankyou for your order. Welcome again"
             );
 
+      // Hover Menu
+
+    //   $(".front").hover(function(){
+    //     $(this).animate({opacity:'0.3'});
+    // }, function(){
+    // $(this).animate({opacity:'1'});
+    // });
+
+    //       $(".inner").hover(function(){
+    //         $(this).animate({opacity:'0.3'});
+    //     }, function(){
+    //     $(this).animate({opacity:'1'});
+    //     });
+
+    //     $(".inner").hover(function(){
+    //       $(this).animate({opacity:'0.3'});
+    //   }, function(){
+    //   $(this).animate({opacity:'1'});
+    //   });
+
+
+
 
 // variable to get the location of the customer
 var location = prompt("Please enter your location to get your pizza delivered.If you do not want it delivered then cancel.");
