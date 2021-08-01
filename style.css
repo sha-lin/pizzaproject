@@ -6,6 +6,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.img{
+  float: right;
+}
 .navbar {
   background: rgba(37, 1, 28, 0.952) !important;
 }
